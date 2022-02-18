@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/words-solver/static/css/main.408102ab.css",
+    "main.js": "/words-solver/static/js/main.547296ae.js",
+    "static/js/787.aa2b166e.chunk.js": "/words-solver/static/js/787.aa2b166e.chunk.js",
+    "index.html": "/words-solver/index.html",
+    "main.408102ab.css.map": "/words-solver/static/css/main.408102ab.css.map",
+    "main.547296ae.js.map": "/words-solver/static/js/main.547296ae.js.map",
+    "787.aa2b166e.chunk.js.map": "/words-solver/static/js/787.aa2b166e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.408102ab.css",
+    "static/js/main.547296ae.js"
+  ]
+}
