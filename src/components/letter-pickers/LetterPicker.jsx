@@ -22,7 +22,7 @@ export const LetterPicker = ({ letter, setLetter, removeLetter }) => {
                 placeholder="Litera"
                 value={letter.character || ''}
                 onChange={(e) =>
-                    setLetter({ ...letter, character: e.target.value.slice(-1) })
+                    setLetter({ ...letter, character: e.target.value.slice(-1).toLowerCase() })
                 }
             />
             <Select
@@ -33,8 +33,8 @@ export const LetterPicker = ({ letter, setLetter, removeLetter }) => {
                 }
                 value={letter.isValidPosition}
             >
-                <Option value={true}>Prawidłowa pozycja</Option>
-                <Option value={false}>Nieprawidłowa pozycja</Option>
+                <Option value={true} style={{background: '#07bc0c'}}>Prawidłowa pozycja</Option>
+                <Option value={false} style={{background: '#F6EF77'}}>Nieprawidłowa pozycja</Option>
             </Select>
             <Button
                 onClick={removeLetter}

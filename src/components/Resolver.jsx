@@ -13,7 +13,7 @@ export const Resolver = () => {
             <Input
                 placeholder="Odrzucone litery"
                 value={rejectedLetters}
-                onChange={(e) => setRejectedLetters(e.target.value)}
+                onChange={(e) => setRejectedLetters(e.target.value.toLowerCase())}
             />
             <Divider>Znane litery</Divider>
             {knownLetters.map((v, index) => (
